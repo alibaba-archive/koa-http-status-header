@@ -29,3 +29,11 @@ If response contains error. You will get resp with status code 200 like below.
 < Content-Type: application/json
 ...
 ```
+
+## API
+<!-- See [docs/api.md](docs/api.md) -->
+setHttpStatusHeader(options: StatusHeaderOptions = {}): Koa.Middleware
+return `Koa.Middleware` to set response a header represent http status code.
+
+- options: *Object*
+  - headerName: *String* (Optional) a specific name for store http status code in response header. Default is `x-http-status`

@@ -13,7 +13,7 @@ export function setHttpStatusHeader(options: StatusHeaderOptions = {}): Middlewa
       ctx.body = ctx.body || e.message
     }
     ctx.set(options.headerName || 'x-http-status', ctx.status.toString())
-    if (ctx.status >= 300) {
+    if (ctx.status >= 400) {
       ctx.status = 200
     }
   }
