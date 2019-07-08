@@ -1,7 +1,23 @@
 {
   "name": "@tng/koa-http-status-header",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
+  "maintainers": [
+    {
+      "name": "Orange Mi",
+      "email": "orangemiwj@gmail.com"
+    }
+  ],
+  "keywords": [
+    "koa",
+    "header",
+    "http"
+  ],
+  "homepage": "https://github.com/teambition/koa-http-status-header",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teambition/koa-http-status-header.git"
+  },
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
